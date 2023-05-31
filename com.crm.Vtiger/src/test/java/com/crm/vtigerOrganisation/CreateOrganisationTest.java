@@ -50,5 +50,6 @@ public class CreateOrganisationTest extends BaseClass{
 		Assert.assertTrue(organisationName.contains(orgName),"Organisation is not created");
 		
 		Reporter.log("CreateOrganisationTest testcase is pass",true);
+		//Thank you
 	}
 }
