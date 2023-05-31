@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[CreateContactsTest testcase is pass]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-05-30T13:47:20 IST" name="Suite" finished-at="2023-05-30T13:48:05 IST" duration-ms="44655">
+    <groups>
+    </groups>
+    <test started-at="2023-05-30T13:47:20 IST" name="Test" finished-at="2023-05-30T13:48:05 IST" duration-ms="44655">
+      <class name="com.crm.vtigerContacts.CreateContactWithOrganisationTest">
+        <test-method is-config="true" signature="openDBConnection()[pri:0, instance:com.crm.vtigerContacts.CreateContactWithOrganisationTest@6253c26]" started-at="2023-05-30T13:47:20 IST" name="openDBConnection" finished-at="2023-05-30T13:47:20 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDBConnection -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.crm.vtigerContacts.CreateContactWithOrganisationTest@6253c26]" started-at="2023-05-30T13:47:20 IST" name="openBrowser" finished-at="2023-05-30T13:47:27 IST" duration-ms="6811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.crm.vtigerContacts.CreateContactWithOrganisationTest@6253c26]" started-at="2023-05-30T13:47:27 IST" name="loginToApp" finished-at="2023-05-30T13:47:33 IST" duration-ms="6208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.vtigerContacts.CreateContactWithOrganisationTest@6253c26]" started-at="2023-05-30T13:48:04 IST" name="closeBrowser" finished-at="2023-05-30T13:48:05 IST" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeDBConnection()[pri:0, instance:com.crm.vtigerContacts.CreateContactWithOrganisationTest@6253c26]" started-at="2023-05-30T13:48:05 IST" name="closeDBConnection" finished-at="2023-05-30T13:48:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBConnection -->
+      </class> <!-- com.crm.vtigerContacts.CreateContactWithOrganisationTest -->
+      <class name="com.crm.vtigerContacts.CreateContactsTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.crm.vtigerContacts.CreateContactsTest@49049a04]" started-at="2023-05-30T13:47:20 IST" name="openBrowser" finished-at="2023-05-30T13:47:27 IST" duration-ms="6560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.crm.vtigerContacts.CreateContactsTest@49049a04]" started-at="2023-05-30T13:47:27 IST" name="loginToApp" finished-at="2023-05-30T13:47:33 IST" duration-ms="6278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="createContactsTest()[pri:0, instance:com.crm.vtigerContacts.CreateContactsTest@49049a04]" started-at="2023-05-30T13:47:33 IST" name="createContactsTest" finished-at="2023-05-30T13:47:58 IST" duration-ms="24672" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CreateContactsTest testcase is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContactsTest -->
+        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:com.crm.vtigerContacts.CreateContactsTest@49049a04]" started-at="2023-05-30T13:47:58 IST" name="logoutFromApp" finished-at="2023-05-30T13:48:00 IST" duration-ms="2635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.vtigerContacts.CreateContactsTest@49049a04]" started-at="2023-05-30T13:48:00 IST" name="closeBrowser" finished-at="2023-05-30T13:48:01 IST" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.vtigerContacts.CreateContactsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
