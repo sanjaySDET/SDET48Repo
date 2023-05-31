@@ -18,6 +18,7 @@ public class CreateOrganisationTest extends BaseClass{
 @Test
 	public void createOrganisationTest() throws EncryptedDocumentException, IOException
 	{
+	//welcome
 		//to get random number
 		int ranNo = jLib.getRandomNumber();
 		
@@ -50,6 +51,7 @@ public class CreateOrganisationTest extends BaseClass{
 		Assert.assertTrue(organisationName.contains(orgName),"Organisation is not created");
 		
 		Reporter.log("CreateOrganisationTest testcase is pass",true);
-		//Thank you
+		
+		
 	}
 }
