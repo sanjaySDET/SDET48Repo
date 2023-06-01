@@ -15,9 +15,7 @@ import vtigerGenericUtils.BaseClass;
 
 public class CreateContactWithOrganisationTest extends BaseClass{
 @Test
-	public void createContactWithOrganisationTest() throws IOException{
-	//welcome to createOrganisation	
-	
+	public void createContactWithOrganisationTest() throws IOException{	
 	// to get random number
 		int ranNo = jLib.getRandomNumber();
 
@@ -60,5 +58,6 @@ public class CreateContactWithOrganisationTest extends BaseClass{
 		
 		sft.assertAll();
 		//Thank you execution completed
+		//finally execuited
 	}
 }
