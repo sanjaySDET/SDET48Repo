@@ -19,8 +19,7 @@ import vtigerGenericUtils.BaseClass;
 public class CreateContactsTest extends BaseClass {
 @Test(retryAnalyzer = vtigerGenericUtils.RetryAnalyser.class)
 	 public void createContactsTest() throws EncryptedDocumentException, IOException{
-
-		//welcome
+	//modification needed
 		// to get random number
 		int ranNo = jLib.getRandomNumber();
 
@@ -53,6 +52,5 @@ public class CreateContactsTest extends BaseClass {
 		Assert.assertTrue(presentContactName.contains(lastName),"contact is not created");
 		
 		Reporter.log("CreateContactsTest testcase is pass",true);
-		//test cases successfully completed
 	}
 }
