@@ -16,7 +16,9 @@ import vtigerGenericUtils.BaseClass;
 public class CreateContactWithOrganisationTest extends BaseClass{
 @Test
 	public void createContactWithOrganisationTest() throws IOException{
-		// to get random number
+	//welcome to createOrganisation	
+	
+	// to get random number
 		int ranNo = jLib.getRandomNumber();
 
 		// Fetch data from excel sheet
